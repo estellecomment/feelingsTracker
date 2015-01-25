@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/question_radiogroup"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_weight="4"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="0" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="1" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="2" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="3" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="4" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="5" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="6" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="7" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="8" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="9" />
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_horizontal|bottom"
+        android:onClick="onRadioButtonClicked"
+        android:text="10" />
+
+</RadioGroup>
