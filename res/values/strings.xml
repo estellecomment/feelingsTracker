@@ -9,12 +9,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
-
     <string name="question_1_label">How is your general feeling, taking into account your whole life, including work?</string>
     <string name="question_1_min_label">Awful, I cannot imagine feeling worse</string>
     <string name="question_1_max_label">Incredible, life cannot be better</string>
-
     <string name="question_2_label">How is your general feeling, considering only work?</string>
     <string name="question_2_min_label">Awful, I cannot imagine feeling worse</string>
     <string name="question_2_max_label">Incredible, life cannot be better</string>
+    <string name="record_feelings">Record Feelings</string>
+    <string name="feelings_recorded">Feelings recorded - %1$s</string>
+    
 </resources>

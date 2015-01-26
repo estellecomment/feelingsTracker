@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/question_1_seekbar_wrapper"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="4" >
+
+    <SeekBar
+        android:id="@+id/question_1_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/question_1_seekbar_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_1_seekbar"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
