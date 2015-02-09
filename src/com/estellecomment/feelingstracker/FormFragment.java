@@ -3,6 +3,7 @@ package com.estellecomment.feelingstracker;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -110,6 +111,7 @@ public class FormFragment extends Fragment {
 
   private void initializeSubmitButton(Button submitButton) {
     submitButton.setOnClickListener(new View.OnClickListener() {
+      @SuppressLint("SimpleDateFormat")  // ignoring locale recommendations.
       @Override
       public void onClick(View v) {
         long timeStampMillis = System.currentTimeMillis();
